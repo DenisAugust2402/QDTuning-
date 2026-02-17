@@ -165,4 +165,12 @@
       }
     });
   });
+
+  const heroVideo = document.getElementById('heroVideo');
+
+if (heroVideo) {
+  heroVideo.addEventListener('canplay', () => {
+    heroVideo.classList.add('is-loaded');
+  });
+}
 })();

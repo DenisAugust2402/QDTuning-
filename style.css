@@ -272,6 +272,12 @@ button {
   pointer-events: none;
 
   animation: slowZoom 20s ease-in-out infinite alternate;
+  opacity: 0;
+  transition: opacity 1.2s ease;
+}
+
+.hero__bg-video.is-loaded {
+  opacity: 1;
 }
 
 .hero__bg-video::-webkit-media-controls {
