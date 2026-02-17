@@ -260,6 +260,8 @@ button {
 
   display: flex;
   align-items: center;
+
+  background: url(images/hero.jpg) center/cover no-repeat;
 }
 
 .hero__bg-video {
@@ -271,9 +273,10 @@ button {
   z-index: 0;
   pointer-events: none;
 
-  animation: slowZoom 20s ease-in-out infinite alternate;
   opacity: 0;
   transition: opacity 1.2s ease;
+
+  animation: slowZoom 20s ease-in-out infinite alternate;
 }
 
 .hero__bg-video.is-loaded {
