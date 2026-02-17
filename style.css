@@ -269,8 +269,17 @@ button {
   height: 100%;
   object-fit: cover;
   z-index: 0;
+  pointer-events: none;
 
   animation: slowZoom 20s ease-in-out infinite alternate;
+}
+
+.hero__bg-video::-webkit-media-controls {
+  display: none !important;
+}
+
+.hero__bg-video::-webkit-media-controls-start-playback-button {
+  display: none !important;
 }
 
 .hero__overlay {
