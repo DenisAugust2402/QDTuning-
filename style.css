@@ -283,6 +283,8 @@ button {
 .hero__content {
   position: relative;
   z-index: 2;
+  
+  transform: translateY(8vh);
 }
 
 .hero__title {
