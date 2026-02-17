@@ -904,6 +904,12 @@ button {
 
   @keyframes slowZoom {
   from { transform: scale(1); }
-  to { transform: scale(1.08); }
-}
+  to { transform: scale(1.05); }
+  }
+  
+  @media(max-width: 768px){
+    .hero__bg-video{
+      animation: none;
+    }
+  }
 }
